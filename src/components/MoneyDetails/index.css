@@ -1,0 +1,52 @@
+/* Write your CSS here */
+
+.list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.amount-containers {
+  width: 300px;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income-container {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses-container {
+  background-color: #cbd5e1;
+  border: 1px solid #7c3aed;
+  margin-right: 30px;
+}
+
+.images {
+  height: 60px;
+  width: 60px;
+}
+
+.rupees {
+  margin-left: 20px;
+  margin-top: 13px;
+}
+
+.font-color-in-amount-container {
+  color: #7e858e;
+  margin-bottom: 5px;
+}
+
+.amount {
+  font-size: 26px;
+  color: #334155;
+}
